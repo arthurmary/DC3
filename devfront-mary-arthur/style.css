@@ -1,0 +1,25 @@
+.conteneur {
+    font-style: aqua;
+    height: max-content;
+    width: 600px;
+    
+    flex-wrap: nowrap;
+   
+}
+
+.element1{
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+}
+.element2{
+    background-color: brown;
+    height: 90px;
+    width: 90px;
+}
+
+.element3{
+    background-color:green;
+    height: 90px;
+    width: 90px;
+}
