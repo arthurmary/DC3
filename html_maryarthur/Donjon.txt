@@ -1,0 +1,50 @@
+﻿1. Justifie-end
+2. justify-center
+
+
+1. justify-around
+
+
+1. justify-between
+
+
+1. items-center
+
+
+1. items-center justify-center
+
+
+1. justify-around items-end
+
+
+1. flex-row-reverse
+
+
+1. flex-col
+
+
+1. items-end justify-center flex-col-reverse
+
+
+1. order-last
+
+
+1. order-first
+
+
+1. self-center
+
+
+1. order-last self-end
+
+
+1. flex-wrap
+
+
+1. flex-wrap-reverse justify-end
+
+
+1. content-between
+
+
+1. flex-wrap-reverse justify-center content-center
