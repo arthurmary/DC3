@@ -1,25 +1,38 @@
-.conteneur {
-    font-style: aqua;
-    height: max-content;
-    width: 600px;
-    
-    flex-wrap: nowrap;
-   
-}
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 400px;
+    justify-content: space-around;
+    padding: 10px 0;
+}  
 
 .element1{
     background-color: aqua;
     height: 90px;
     width: 90px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .element2{
     background-color: brown;
     height: 90px;
     width: 90px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .element3{
     background-color:green;
     height: 90px;
     width: 90px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
