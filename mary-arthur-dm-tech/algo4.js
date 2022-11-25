@@ -1,5 +1,6 @@
-/**
- * @return Integer - Sum of previous  integer till the given integer
+/**ALGO 4
+ * 
+ * @return 
  */
 function SumNumberBefore() {
 

@@ -1,18 +1,21 @@
-/**
- * 
- * @param {String} givenString - une ou des chaîne(s)  de caractères
- * @returns new String - la ou les nouvelle(s) chaîne(s) de caractères obtenue(s) 
- */
-function ReverseGIvenString(givenString) {
-    // je déclare la variable qui va contenir les nouvelles données obtenues. 
-    let newString = "";
-    if ((givenString.toString().split(' ')).length > 1) {
-        newString = givenString.split(" ").reverse().join(" ");
-        return newString;
+// ALGO 1
+
+// Renvoie un mot écrit à l'envers
+function inverser(mot) {
+    var motInverse = "";
+ 
+  // ajouter chaque lettre au début du mot inversé
+    for (var i = mot.length - 1; i >= 0; i--) {
+        motInverse = mot[i] + motInverse;
     }
-     newString =  givenString.split("").reverse().join("");
-    return newString
+ 
+    return motInverse;
 }
 
-console.log(ReverseGIvenString("hello"));
+console.log(motInverseinevrser('Appuyer sur ON'));
+
+
+
+
+
 

@@ -1,4 +1,4 @@
-/**
+/**ALGO 5
  * 
  * @param {Array} array 
  * @returns Array - Le tableau des nombres dans l'ordre croissant

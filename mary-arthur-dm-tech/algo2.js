@@ -1,11 +1,11 @@
-/**
+/**ALGO 2
  * 
  * @param {Array} array 
- * @returns Integer - the larger integer of the array
+ * @returns 
  */
 function RetrieveMax(array) {
     const toArray = Array.from(array);
-    //console.log(toArray);
+    
     return Math.max(...toArray);
 
 }
